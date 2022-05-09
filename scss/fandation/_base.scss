@@ -1,0 +1,24 @@
+@use "./variables"as *;
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  letter-spacing: .06em;
+  color: $color-text--main;
+  background-color: $color-bg;
+  font-family: 'Outfit', 'Noto Sans JP', sans-serif;
+}
+
+a {
+  transition: .3s;
+
+  &:hover {
+    opacity: .5;
+    transition: .3s;
+  }
+}

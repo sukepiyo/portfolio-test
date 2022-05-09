@@ -1,0 +1,7 @@
+@use "../../fandation/variables" as *;
+@use "../../fandation/mixins" as *;
+
+
+.c-inner {
+  @include centered;
+}

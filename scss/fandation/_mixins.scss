@@ -1,0 +1,12 @@
+@use "./variables" as *;
+
+@mixin centered {
+  width: $wide-inner;
+  margin: auto;
+}
+
+@mixin desktop {
+  @media (min-width: 768px) {
+    @content;
+  }
+}

@@ -1,0 +1,14 @@
+// fandation
+@use "../scss/fandation/variables";
+@use "../scss/fandation/mixins";
+@use "../scss/fandation/base";
+
+// layout
+@use "../scss/layout/header";
+@use "../scss/layout/footer";
+
+// project
+@use "../scss/object/project/hero";
+
+// component
+@use "../scss/object/component/inner";
